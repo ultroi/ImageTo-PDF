@@ -34,15 +34,15 @@ async def start(client, message):
 
 i can convert image to pdf
 
-This bot created by @TeamSDBOTs""",reply_to_message_id = message.message_id ,  reply_markup=InlineKeyboardMarkup(
+This bot created for converting img to pdf""",reply_to_message_id = message.message_id ,  reply_markup=InlineKeyboardMarkup(
 
             [
 
                 [
 
-                    InlineKeyboardButton("Updates Channel" ,url="https://t.me/SDBOTs_inifinity") ],
+                    InlineKeyboardButton("Ownner" ,url="https://t.me/Weeb_lover") ],
 
-                 [InlineKeyboardButton("Support Group", url="https://t.me/SDBOTz") ]       ]        ) )
+                 [InlineKeyboardButton("Anime Group", url="https://t.me/animeclub_4all") ]       ]        ) )
 
 @app.on_message(filters.private & filters.photo)
 
